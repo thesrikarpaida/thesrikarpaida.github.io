@@ -3,7 +3,7 @@
 * The template for this website `Parchment` was forked from the user [pro-panda](https://github.com/pro-panda/parchment/).
 
 ## About this
-This is just like a display of me and my work. I might even write some blogs about anything, so I don't fully know about that.
+This is just like a display of me and my work. I might even write some blogs about anything, so I don't fully know about what I might do here.
 
 ## Usage
 
