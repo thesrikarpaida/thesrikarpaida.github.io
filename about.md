@@ -5,21 +5,15 @@ title: About Me
 
 <img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
 
-I'm Dilbert. I've been working as a Software Engineer for over 30 years. I like to innovate to solve challenging problems using technology. I work with a great Engineering team, but we have a good-for-nothing and clueless manager, who can be replaced with a monkey and the change would be for the better.
+I'm Srikar. I'm a final year student in Computer Science and Engineering from PDPM IIITDM Jabalpur. I'm interested to work in Cybersecurity. I am so fascinated how data is the most important thing everywhere. The ways we can access data, secure it, all the overwhelming thoughts I have are what made me interested in the field in the first place.
 
-On a personal front, I live with two amazing pets - Dogbert and Ratbert, and three dinasours - Bob, Rex and Dawn - who're hiding from the rest of the world. I'm single and have few friends due to my poor social skills, but I usually spend my time playing with computers and technology.
+Usually, I solve different types of Rubik's cubes and always try to be better at it. I try to spend _more time_ in trying to solve them in _less time_.
 
-### Life Advice
-Here are a few things I've learned over the years,
-> An optimist is simply a pessimist with no job experience.
-
-> All of your co-workers are fools. You must learn to pity and tolerate them.
-
-> There are very few problems that can't be solved through a suitable application of high explosives.
+I sometimes read novels too, which I assume is because of my brain trying to do something that makes me look away from screen.
 
 ### Publications
-1. Dilbert, Ratbert: "Effects of having a dog and a dinasaur in the same house", _Journal of Wierd Studies_
-2. Alice, Dilbert, Wally: "Efficient ways to deal with a dumb manager", _Conference of Frustrated Engineers_
+1. Mayank K. Aditia, Srikar Paida, Fahiem Altaf, Soumyadev Maity: "Certificate-less Public Key Encryption for Secure e-Healthcare Systems", Published in [_2019 IEEE Conference on Information and Communication Technology_](https://ieeexplore.ieee.org/xpl/conhome/9051888/proceeding).
 
-### Contact Me
-No thanks, I have enough problems of my own to deal with.
+### Contact Details
+* [My Institute Email ID](srikar.paida100@gmail.com)
+* [LinkedIn](https://www.linkedin.com/in/srikar-paida-2a547517a/)
