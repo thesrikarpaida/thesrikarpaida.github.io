@@ -21,4 +21,4 @@ navbar:
  - name: "About"
    link: "about"
  - name: "Resume"
-   absolute-link: "https://thesrikarpaida.github.io/resume.pdf"
+   link: "resume.pdf"
