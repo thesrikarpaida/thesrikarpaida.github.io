@@ -49,4 +49,4 @@ If you are thinking how to start, you can follow a few steps below that can help
 - The most important part is that you never forget to follow this. This is what guides you in your life.
 
 
-Thanks for reading. Have a wonderful day.
+_Thanks for reading. Have a wonderful day._
