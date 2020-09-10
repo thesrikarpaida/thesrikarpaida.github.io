@@ -47,3 +47,6 @@ If you are thinking how to start, you can follow a few steps below that can help
 - Create them as sections. A section doesn't need to include subsections and all unless you need to. It can also consist of only one sentence that can govern the whole category itself such that it doesn't need to be changed for the environment you live right now. You can have each section describing how you want to live your life of that category. It doesn't need to be much. It just needs to be good enough for you to follow.
 - Now, write yourself a preamble like "_I, ABC, am writing this constitution to ....._".
 - The most important part is that you never forget to follow this. This is what guides you in your life.
+
+
+Thanks for reading. Have a wonderful day.
