@@ -12,4 +12,4 @@ Now, I'm again too lazy to do that too. So, I'm just uploading it here and gonna
 You can access the file online from [this link](https://github.com/thesrikarpaida/thesrikarpaida.github.io/blob/master/assets/BeginnerCubing.pdf) 
 or you can just download it from [here](https://github.com/thesrikarpaida/thesrikarpaida.github.io/raw/master/assets/BeginnerCubing.pdf).
 
-_Thanks for reading. Have a good day._
+_Thanks for reading. Have a wonderful day._
