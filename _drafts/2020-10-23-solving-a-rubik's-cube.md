@@ -9,4 +9,7 @@ I also can't gather them all together just so that I can teach them in a class. 
 Well, about that, I never used to have it with me all the time. So, I put it on my drive. So, whenever a person asked I'd download it and send it to them.
 Now, I'm again too lazy to do that too. So, I'm just uploading it here and gonna ask people to check it out here.
 
+You can access the file [here](https://github.com/thesrikarpaida/thesrikarpaida.github.io/blob/master/assets/BeginnerCubing.pdf) 
+or you might want to just download it from [here](https://github.com/thesrikarpaida/thesrikarpaida.github.io/raw/master/assets/BeginnerCubing.pdf).
+
 _Thanks for reading. Have a good day._
