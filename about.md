@@ -12,7 +12,7 @@ Usually, I solve different types of Rubik's cubes and always try to be better at
 I sometimes read novels too, which I assume is because of my brain trying to do something that makes me look away from screen.
 
 ### Publications
-1. Mayank K. Aditia, Srikar Paida, Fahiem Altaf, Soumyadev Maity: "Certificate-less Public Key Encryption for Secure e-Healthcare Systems", Published in [_2019 IEEE Conference on Information and Communication Technology_](https://ieeexplore.ieee.org/xpl/conhome/9051888/proceeding).
+1. Mayank K. Aditia, **Srikar Paida**, Fahiem Altaf, Soumyadev Maity: "Certificate-less Public Key Encryption for Secure e-Healthcare Systems", Published in [_2019 IEEE Conference on Information and Communication Technology_](https://ieeexplore.ieee.org/xpl/conhome/9051888/proceeding).
 
 ### Contact Details
 + [My Institute Email ID](mailto:srikar.paida100@gmail.com)
