@@ -1,0 +1,10 @@
+.footer {
+    text-align: center;
+    display: table-row;
+    height: 0;
+}
+
+.footer img {
+    width: 4%;
+    height: 4%;
+}
