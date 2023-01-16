@@ -1,1 +1,1 @@
-# thesrikarpaida.github.io
+thesrikarpaida.github.io
