@@ -1,0 +1,10 @@
+body {
+    color: #343434;
+    background-color: #f5f5f5;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    display: table;
+}
+
