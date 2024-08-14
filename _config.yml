@@ -19,7 +19,7 @@ title: Srikar Paida # the main title
 tagline: Cybersecurity Grad # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Hi visitors, this is Srikar Paida, a graduate student in cybersecurity at University of Maryland, College Park.
+  # Hi visitors, this is Srikar Paida, a graduate student in cybersecurity at University of Maryland, College Park.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -38,7 +38,7 @@ social:
   email: spaida@terpmail.umd.edu # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/thesrikarpaida # change to your twitter homepage
+    # - https://twitter.com/thesrikarpaida # change to your twitter homepage
     - https://github.com/thesrikarpaida # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
