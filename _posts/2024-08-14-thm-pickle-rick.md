@@ -14,7 +14,7 @@ I connected to THM’s OpenVPN and started the machine, along with my Kali VM.
 As the target IP was released, I pasted it into the browser for it to reveal a webpage as below.
 <!-- insert homepage.png -->
 
-![Homepage](/_data/20240814/homepage.png)
+![Homepage](/pictures/20240814/homepage.png)
 
 There wasn’t anything there, but going through the source code of the page, I found some commented code that revealed a username, R1ckRul3s. That meant we could login somewhere, so I used nmap to scan for any running services on this IP.
 ```
