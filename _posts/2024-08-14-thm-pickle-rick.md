@@ -97,8 +97,8 @@ Now, moving on, upon exploring the machine via the commands, I found another ing
 <!-- insert ls_home_rick.png -->
 <!-- insert second_ingredient.png -->
 
-![ls /home](/pictures/20240814/ls_home.png){: width="972" height="589" .w-45 .left}
-![ls /home/rick](/pictures/20240814/ls_home_rick.png){: width="972" height="589" .w-45 .right}
+![ls /home](/pictures/20240814/ls_home.png){: width="486" height="392" .w-120 .left}
+![ls /home/rick](/pictures/20240814/ls_home_rick.png){: width="486" height="392" .w-120 .right}
 
 ![less /home/rick/second\ ingredients](/pictures/20240814/second_ingredient.png){: width="486" height="392"}
 _less /home/rick/second\ ingredients_
@@ -116,8 +116,9 @@ I then checked for files in the root folder, and there you have the final ingred
 <!-- insert ls_root.png -->
 
 ![ls /root](/pictures/20240814/ls_root.png)
+_ls /root_
 
-I printed its contents too using `less 3rd.txt`.
+I printed its contents too using `less /root/3rd.txt`.
 <!-- insert third_ingredient.png -->
 
 ![less /root/3rd.txt](/pictures/20240814/third_ingredient.png)
