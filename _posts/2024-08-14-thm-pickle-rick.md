@@ -106,12 +106,10 @@ _less /home/rick/second\ ingredients_
 
 I then tried to check for sudo permissions using the command sudo -l.
 <!-- insert sudo_l.png -->
-
 ![sudo -l](/pictures/20240814/sudo_l.png)
 _sudo -l_
 
-It basically meant that you can use any sudo commands without a password, implying we have root access!
-
+It basically meant that you can use any sudo commands without a password, implying we have root access!<br>
 I then checked for files in the root folder, and there you have the final ingredient!!
 <!-- insert ls_root.png -->
 
