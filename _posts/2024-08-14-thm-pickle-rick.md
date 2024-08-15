@@ -15,7 +15,7 @@ I connected to THM’s OpenVPN and started the machine, along with my Kali VM.
 As the target IP was released, I pasted it into the browser for it to reveal a webpage as below.
 <!-- insert homepage.png -->
 
-![Homepage](/pictures/20240814/homepage.png)
+![Homepage](/pictures/20240814/homepage.png){: width="972" height="589" .w-75 .normal}
 
 There wasn’t anything there, but going through the source code of the page, I found some commented code that revealed a username, R1ckRul3s. That meant we could login somewhere, so I used nmap to scan for any running services on this IP.
 ```
@@ -52,36 +52,39 @@ Nmap done: 1 IP address (1 host up) scanned in 1.90 second
 I tried exploring the webpage more, and when in the robots.txt page, it had the following:
 <!-- insert robots_page.png -->
 
-![robots.txt](/pictures/20240814/robots_page.png)
+![robots.txt](/pictures/20240814/robots_page.png){: width="972" height="589" .w-75 .normal}
 
 `Wubbalubbadubdub`
 
 Putting that aside, I tried the dirbuster tool on the target machine, to find out if there are any more hidden pages, and found the following:
 <!-- insert dirbuster.png -->
 
-![dirbuster output](/pictures/20240814/dirbuster.png)
+![dirbuster output](/pictures/20240814/dirbuster.png){: width="972" height="589" .w-75 .normal}
 
 I went to the portal.php page, and there voila! There’s a login page.
 <!-- insert portal.png -->
 
-![portal.php](/pictures/20240814/portal.png)
+![portal.php](/pictures/20240814/portal.png){: width="972" height="589" .w-75 .normal}
 
 The username would obviously be `R1ckRul3s`. For the password, I tried the text from the `robots.txt` and it worked.
 
 Upon logging in, there was an option to execute commands on the machine there. I tried `ls` and it revealed a list of files in the current working directory, which included the file `Sup3rS3cretPickl3Ingred.txt`.
 <!-- insert just_ls.png -->
 
-![ls](/pictures/20240814/just_ls.png)
+![ls](/pictures/20240814/just_ls.png){: width="972" height="589" .w-75 .normal}
+_ls_
 
 I tried to read the file, but the following output showed up when I ran the command `cat Sup3rS3cretPickl3Ingred.txt`.
 <!-- insert cat_not_working.png -->
 
-![cat Sup3rS3cretPickl3Ingred.txt](/pictures/20240814/cat_not_working.png)
+![cat Sup3rS3cretPickl3Ingred.txt](/pictures/20240814/cat_not_working.png){: width="972" height="589" .w-75 .normal}
+_cat Sup3rS3cretPickl3Ingred.txt_
 
 So, I tried to check if it would work if I tried head, tail, etc. After a few tries, finally, less seemed to work and we got ourselves the first ingredient.
 <!-- insert first_ingredient.png -->
 
-![less Sup3rS3cretPickl3Ingred.txt](/pictures/20240814/first_ingredient.png)
+![less Sup3rS3cretPickl3Ingred.txt](/pictures/20240814/first_ingredient.png){: width="972" height="589" .w-75 .normal}
+_less Sup3rS3cretPickl3Ingred.txt_
 
 I’ve checked the other pages on the top navigation menu, and all of them lead to a denied page, so we’ll ignore that for now.
 <!-- insert denied.png -->
