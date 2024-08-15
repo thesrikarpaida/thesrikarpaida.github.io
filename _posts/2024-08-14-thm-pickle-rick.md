@@ -82,7 +82,7 @@ So, I tried to check if it would work if I tried head, tail, etc. After a few tr
 ![less Sup3rS3cretPickl3Ingred.txt](/pictures/20240814/first_ingredient.png){: width="972" height="589"}
 _less Sup3rS3cretPickl3Ingred.txt_
 
-I’ve checked the other pages on the top navigation menu, and all of them lead to a denied page, so we’ll ignore that for now.
+I’ve checked the other pages on the top navigation menu, and all of them lead to a denied page, so we’ll ignore that for now.<br>
 <!-- insert denied.png -->
 ![denied.php](/pictures/20240814/denied.png)
 _denied.php_
