@@ -97,8 +97,8 @@ Now, moving on, upon exploring the machine via the commands, I found another ing
 <!-- insert ls_home_rick.png -->
 <!-- insert second_ingredient.png -->
 
-![ls /home](/pictures/20240814/ls_home.png){: width="243" height="196" .left}
-![ls /home/rick](/pictures/20240814/ls_home_rick.png){: width="243" height="196" .right}
+![ls /home](/pictures/20240814/ls_home.png){: width="243" height="196" .w-50 .left}
+![ls /home/rick](/pictures/20240814/ls_home_rick.png){: width="243" height="196" .w-50 .right}
 
 ![less /home/rick/second\ ingredients](/pictures/20240814/second_ingredient.png){: width="486" height="392"}
 _less /home/rick/second\ ingredients_
