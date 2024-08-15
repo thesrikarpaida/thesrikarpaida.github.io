@@ -53,6 +53,7 @@ I tried exploring the webpage more, and when in the robots.txt page, it had the 
 <!-- insert robots_page.png -->
 
 ![robots.txt](/pictures/20240814/robots_page.png){: width="972" height="589" .w-75 .normal}
+
 `Wubbalubbadubdub`
 
 Putting that aside, I tried the dirbuster tool on the target machine, to find out if there are any more hidden pages, and found the following:
@@ -62,37 +63,31 @@ Putting that aside, I tried the dirbuster tool on the target machine, to find ou
 
 I went to the portal.php page, and there voila! There’s a login page.
 <!-- insert portal.png -->
-
 ![portal.php](/pictures/20240814/portal.png)
 _portal.php_
 
-The username would obviously be `R1ckRul3s`. For the password, I tried the text from the `robots.txt` and it worked.
-
+The username would obviously be `R1ckRul3s`. For the password, I tried the text from the `robots.txt` and it worked.<br>
 Upon logging in, there was an option to execute commands on the machine there. I tried `ls` and it revealed a list of files in the current working directory, which included the file `Sup3rS3cretPickl3Ingred.txt`.
 <!-- insert just_ls.png -->
-
 ![ls](/pictures/20240814/just_ls.png)
 _ls_
 
 I tried to read the file, but the following output showed up when I ran the command `cat Sup3rS3cretPickl3Ingred.txt`.
 <!-- insert cat_not_working.png -->
-
 ![cat Sup3rS3cretPickl3Ingred.txt](/pictures/20240814/cat_not_working.png){: width="972" height="589"}
 _cat Sup3rS3cretPickl3Ingred.txt_
 
 So, I tried to check if it would work if I tried head, tail, etc. After a few tries, finally, less seemed to work and we got ourselves the first ingredient.
 <!-- insert first_ingredient.png -->
-
 ![less Sup3rS3cretPickl3Ingred.txt](/pictures/20240814/first_ingredient.png){: width="972" height="589"}
 _less Sup3rS3cretPickl3Ingred.txt_
 
 I’ve checked the other pages on the top navigation menu, and all of them lead to a denied page, so we’ll ignore that for now.
 <!-- insert denied.png -->
-
 ![denied.php](/pictures/20240814/denied.png)
 _denied.php_
 
-Now, moving on, upon exploring the machine via the commands, I found another ingredient at /home/rick.
+Now, moving on, upon exploring the machine via the commands, I found another ingredient at `/home/rick`. The following screenshots show the output of `ls /home/` and `ls /home/rick` respectively.
 <!-- insert ls_home.png -->
 <!-- insert ls_home_rick.png -->
 <!-- insert second_ingredient.png -->
@@ -112,7 +107,6 @@ _sudo -l_
 It basically meant that you can use any sudo commands without a password, implying we have root access!<br>
 I then checked for files in the root folder, and there you have the final ingredient!!
 <!-- insert ls_root.png -->
-
 ![ls /root](/pictures/20240814/ls_root.png)
 _ls /root_
 
