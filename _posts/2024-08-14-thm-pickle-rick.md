@@ -4,6 +4,7 @@ title: TryHackMe Room - Pickle Rick
 date: 2024-08-14 15:20:00 +0800
 categories: [tryhackme, walkthrough]
 tags: [ctf]
+image: /pictures/20240814/Pickle_Rick.jpg
 ---
 
 I wanted to write a blog in my portfolio site, and slowly fill it with stuff, and thought to myself, “What would be the fastest way to get some content for a blog?” and realized it would be to solve a TryHackMe room. I immediately logged in to TryHackMe and opened the first room I could find, “[Pickle Rick](https://tryhackme.com/r/room/picklerick)”.
