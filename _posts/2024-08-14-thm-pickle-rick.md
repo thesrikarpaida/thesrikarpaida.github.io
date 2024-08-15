@@ -83,7 +83,7 @@ _cat Sup3rS3cretPickl3Ingred.txt_
 So, I tried to check if it would work if I tried head, tail, etc. After a few tries, finally, less seemed to work and we got ourselves the first ingredient.
 <!-- insert first_ingredient.png -->
 
-![less Sup3rS3cretPickl3Ingred.txt](/pictures/20240814/first_ingredient.png){: width="972" height="589" .w-75 .normal}
+![less Sup3rS3cretPickl3Ingred.txt](/pictures/20240814/first_ingredient.png){: width="972" height="589"}
 _less Sup3rS3cretPickl3Ingred.txt_
 
 I’ve checked the other pages on the top navigation menu, and all of them lead to a denied page, so we’ll ignore that for now.
@@ -97,10 +97,10 @@ Now, moving on, upon exploring the machine via the commands, I found another ing
 <!-- insert ls_home_rick.png -->
 <!-- insert second_ingredient.png -->
 
-![ls /home](/pictures/20240814/ls_home.png){: width="972" height="589" .w-75 .left}
-![ls /home/rick](/pictures/20240814/ls_home_rick.png){: width="972" height="589" .w-75 .right}
+![ls /home](/pictures/20240814/ls_home.png){: width="972" height="589" .w-45 .left}
+![ls /home/rick](/pictures/20240814/ls_home_rick.png){: width="972" height="589" .w-45 .right}
 
-![less /home/rick/second\ ingredients](/pictures/20240814/second_ingredient.png){: width="972" height="589"}
+![less /home/rick/second\ ingredients](/pictures/20240814/second_ingredient.png){: width="486" height="392"}
 _less /home/rick/second\ ingredients_
 
 
@@ -108,6 +108,7 @@ I then tried to check for sudo permissions using the command sudo -l.
 <!-- insert sudo_l.png -->
 
 ![sudo -l](/pictures/20240814/sudo_l.png)
+_sudo -l_
 
 It basically meant that you can use any sudo commands without a password, implying we have root access!
 
@@ -116,7 +117,7 @@ I then checked for files in the root folder, and there you have the final ingred
 
 ![ls /root](/pictures/20240814/ls_root.png)
 
-I printed its contents too using less.
+I printed its contents too using `less 3rd.txt`.
 <!-- insert third_ingredient.png -->
 
 ![less /root/3rd.txt](/pictures/20240814/third_ingredient.png)
