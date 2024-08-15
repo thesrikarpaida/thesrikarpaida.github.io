@@ -71,6 +71,7 @@ Upon logging in, there was an option to execute commands on the machine there. I
 <!-- insert just_ls.png -->
 
 ![Homepage](/_posts/20240814/just_ls.png)
+
 _ls_
 
 I tried to read the file, but the following output showed up when I ran the command `cat Sup3rS3cretPickl3Ingred.txt`.
@@ -83,6 +84,7 @@ So, I tried to check if it would work if I tried head, tail, etc. After a few tr
 <!-- insert first_ingredient.png -->
 
 ![Homepage](/_posts/20240814/first_ingredient.png)
+
 _less Sup3rS3cretPickl3Ingred.txt_
 
 I’ve checked the other pages on the top navigation menu, and all of them lead to a denied page, so we’ll ignore that for now.
@@ -96,13 +98,14 @@ Now, moving on, upon exploring the machine via the commands, I found another ing
 <!-- insert ls_home_rick.png -->
 <!-- insert second_ingredient.png -->
 
-![Homepage](/_posts/20240814/ls_home.png) _ls /home_
-![Homepage](/_posts/20240814/ls_home_rick.png) _ls /home/rick_
+![Homepage](/_posts/20240814/ls_home.png)
+![Homepage](/_posts/20240814/ls_home_rick.png) 
 
 I then tried to check for sudo permissions using the command sudo -l.
 <!-- insert sudo_l.png -->
 
 ![Homepage](/_posts/20240814/sudo_l.png)
+
 _sudo -l_
 
 It basically meant that you can use any sudo commands without a password, implying we have root access!
@@ -111,12 +114,14 @@ I then checked for files in the root folder, and there you have the final ingred
 <!-- insert ls_root.png -->
 
 ![Homepage](/_posts/20240814/ls_root.png)
+
 _ls /root_
 
 I printed its contents too using less.
 <!-- insert third_ingredient.png -->
 
 ![Homepage](/_posts/20240814/third_ingredient.png)
+
 _less 3rd.txt_
 
 So, all the 3 ingredients for this room are:
