@@ -50,42 +50,70 @@ Nmap done: 1 IP address (1 host up) scanned in 1.90 second
 
 I tried exploring the webpage more, and when in the robots.txt page, it had the following:
 <!-- insert robots_page.png -->
+
+![robots.txt](/pictures/20240814/robots_page.png)
+
 `Wubbalubbadubdub`
 
 Putting that aside, I tried the dirbuster tool on the target machine, to find out if there are any more hidden pages, and found the following:
 <!-- insert dirbuster.png -->
 
+![dirbuster output](/pictures/20240814/dirbuster.png)
+
 I went to the portal.php page, and there voila! There’s a login page.
 <!-- insert portal.png -->
+
+![portal.php](/pictures/20240814/portal.png)
 
 The username would obviously be `R1ckRul3s`. For the password, I tried the text from the `robots.txt` and it worked.
 
 Upon logging in, there was an option to execute commands on the machine there. I tried `ls` and it revealed a list of files in the current working directory, which included the file `Sup3rS3cretPickl3Ingred.txt`.
 <!-- insert just_ls.png -->
 
-I tried to read the file, but the following output showed up when I ran the command catSup3rS3cretPickl3Ingred.txt.
+![ls](/pictures/20240814/just_ls.png)
+
+I tried to read the file, but the following output showed up when I ran the command `cat Sup3rS3cretPickl3Ingred.txt`.
 <!-- insert cat_not_working.png -->
+
+![cat Sup3rS3cretPickl3Ingred.txt](/pictures/20240814/cat_not_working.png)
 
 So, I tried to check if it would work if I tried head, tail, etc. After a few tries, finally, less seemed to work and we got ourselves the first ingredient.
 <!-- insert first_ingredient.png -->
 
+![less Sup3rS3cretPickl3Ingred.txt](/pictures/20240814/first_ingredient.png)
+
 I’ve checked the other pages on the top navigation menu, and all of them lead to a denied page, so we’ll ignore that for now.
 <!-- insert denied.png -->
 
+![denied.php](/pictures/20240814/denied.png)
+
+Now, moving on, upon exploring the machine via the commands, I found another ingredient at /home/rick.
 <!-- insert ls_home.png -->
 <!-- insert ls_home_rick.png -->
 <!-- insert second_ingredient.png -->
 
+![ls /home](/pictures/20240814/ls_home.png)
+![ls /home/rick](/pictures/20240814/ls_home_rick.png)
+
+![less /home/rick/second\ ingredients](/pictures/20240814/second_ingredient.png)
+
+
 I then tried to check for sudo permissions using the command sudo -l.
 <!-- insert sudo_l.png -->
+
+![sudo -l](/pictures/20240814/sudo_l.png)
 
 It basically meant that you can use any sudo commands without a password, implying we have root access!
 
 I then checked for files in the root folder, and there you have the final ingredient!!
 <!-- insert ls_root.png -->
 
+![ls /root](/pictures/20240814/ls_root.png)
+
 I printed its contents too using less.
 <!-- insert third_ingredient.png -->
+
+![less /root/3rd.txt](/pictures/20240814/third_ingredient.png)
 
 So, all the 3 ingredients for this room are:
 > mr. meeseek hair<br>
