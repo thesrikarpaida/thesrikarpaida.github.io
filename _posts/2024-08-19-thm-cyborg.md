@@ -64,7 +64,7 @@ music_archive:$apr1$BpZ.Q.1m$F0qqPwHSOG50URuOVQTTn.
 
 The word `music_archive` was mentioned in the previous shoutbox in quotes, which means it could be something like a folder or a username. From this above text, it could imply that these are credentials for logging in.<br>
 Since we also have SSH service running, I tried logging into the machine using the above credentials, and it didn’t work. Upon looking closely at the above text, it seemed like a hash to the password, so I tried to crack that hash.<br>
-Cyberchef said it was an invalid hash, but for confirmation, I tried `hash-identifier` for it to say that it was an MD5 hash.
+Cyberchef said it was an invalid hash, but for confirmation, I tried `hash-identifier` for it to say that it was an MD5 hash.<br>
 <!-- Insert hash-identifier screenshot -->
 ![Hash Identifier](/pictures/20240819/hashid.png)
 
