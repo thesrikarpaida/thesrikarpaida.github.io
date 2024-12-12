@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hi visitors, my name is Srikar Paida. I'm an international graduate student at University of Maryland, College Park pursuing M.Eng. Cybersecurity, a domain I've been in love with since a long time. I enjoy learning concepts related to reverse engineering and offensive security and like doing CTFs in TryHackMe.
+Hi visitors, my name is Srikar Paida. I'm an international graduate student at University of Maryland, College Park pursuing M.Eng. Cybersecurity, a domain I've been in love with since a long time. I enjoy learning concepts related to reverse engineering and offensive security and like doing CTFs sometimes.
 
 I previously worked as a software engineer in India, at Integral Ad Science. In my free time, I like to read books (barely) or web comics, but most of the time, I'm just asleep.
 
